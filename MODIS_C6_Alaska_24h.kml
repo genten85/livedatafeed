@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document>
+<name>MODIS C6 Alaska 24h  MODIS Hotspots</name>
+<description><![CDATA[ Fires detected by MODIS during past 24 hours.<br><br>More information: <a href="https://earthdata.nasa.gov/data/nrt-data/firms">https://earthdata.nasa.gov/data/nrt-data/firms</a> ]]></description>
+<Style id="fireIcon1"><IconStyle><scale>1</scale><Icon><href>https://earthdata.nasa.gov/media/firms-google-earth-fire-icon.png</href></Icon></IconStyle> 
+<LabelStyle><scale>0</scale></LabelStyle>	</Style>
+<Style id="fireIconHilite"><IconStyle><scale>1</scale><Icon><href>https://earthdata.nasa.gov/media/firms-google-earth-fire-icon.png</href></Icon></IconStyle>
+<LabelStyle><scale>0</scale></LabelStyle></Style>
+<StyleMap id="fireIcon"><Pair><key>normal</key><styleUrl>#fireIcon1</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#fireIconHilite</styleUrl></Pair></StyleMap>
+<Folder>
+<name> Fire Points List </name>
+<Placemark><name>MODIS FIRE</name><styleUrl>#fireIcon</styleUrl><description> <![CDATA[ Latitude :       54.763 <br> Longitude :     -163.972<br>Date Acquired : 2019-11-25 <br>Time: 13:50 UTC<br>Confidence [0-100] : 100<br>Satellite : A <br><br>For more information, visit <br><a href='https://earthdata.nasa.gov/data/nrt-data/firms'>https://earthdata.nasa.gov/data/nrt-data/firms</a> and <a href="https://earthdata.nasa.gov/faq/firms-faq">https://earthdata.nasa.gov/faq/firms-faq </a><br><br>To subscribe to fire email alerts, visit <a href='https://earthdata.nasa.gov/data/nrt-data/firms/email-alerts'>https://earthdata.nasa.gov/data/nrt-data/firms/email-alerts/</a> <br><br>&bull; <a href='https://earthdata.nasa.gov/data/nrt-data/disclaimer'>FIRMS Disclaimer</a><br><br> ]]></description><Point><coordinates> -163.97200000,  54.76300000</coordinates></Point></Placemark>
+<Placemark><name>MODIS FIRE</name><styleUrl>#fireIcon</styleUrl><description> <![CDATA[ Latitude :       54.758 <br> Longitude :     -163.948<br>Date Acquired : 2019-11-25 <br>Time: 13:50 UTC<br>Confidence [0-100] : 100<br>Satellite : A <br><br>For more information, visit <br><a href='https://earthdata.nasa.gov/data/nrt-data/firms'>https://earthdata.nasa.gov/data/nrt-data/firms</a> and <a href="https://earthdata.nasa.gov/faq/firms-faq">https://earthdata.nasa.gov/faq/firms-faq </a><br><br>To subscribe to fire email alerts, visit <a href='https://earthdata.nasa.gov/data/nrt-data/firms/email-alerts'>https://earthdata.nasa.gov/data/nrt-data/firms/email-alerts/</a> <br><br>&bull; <a href='https://earthdata.nasa.gov/data/nrt-data/disclaimer'>FIRMS Disclaimer</a><br><br> ]]></description><Point><coordinates> -163.94800000,  54.75800000</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

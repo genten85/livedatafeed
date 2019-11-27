@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#earthquakes {
+  margin: 0 auto;
+}
+
+#secondmap {
+  margin: 0 auto;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+#References {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
