@@ -16,10 +16,12 @@ body {
 
 #earthquakes {
   margin: 0 auto;
+  z-index: 0;
 }
 
 #secondmap {
   margin: 0 auto;
+  z-index: 0;
 }
 
 .summary {
