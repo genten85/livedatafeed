@@ -3,6 +3,17 @@ body {
   padding: 0;
 }
 
+#title {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
 #earthquakes {
   margin: 0 auto;
 }
